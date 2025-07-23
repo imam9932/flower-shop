@@ -42,6 +42,7 @@ margin: 0 auto;
 .banner{
   height: 461px;
   display: flex;
+   
   gap:80px;
   margin-top: 80px;
    
@@ -62,4 +63,20 @@ margin: 0 auto;
 .banner-des{
    
   color: rgb(151, 149, 149);
+}
+
+
+
+@media screen and (max-width:577px) {
+   .home,.shop-about{
+    display:none;
+   }
+   .banner{
+    display: grid;
+    grid-template-columns: repeat(1,fr);
+    flex-direction:column;
+   }
+   .banner-container{
+    width: 100%;
+   }
 }
