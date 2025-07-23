@@ -64,6 +64,44 @@ margin: 0 auto;
    
   color: rgb(151, 149, 149);
 }
+/* our plants section start */
+.plants-container{
+  height: 138px;
+  text-align: center;
+}
+.plants-title{
+  font-size: 50px;
+  font-weight: 700;
+}
+.plants-des{
+  color: rgb(151, 149, 149);
+}
+/* lily section start */
+.lily-section{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.lily-container{
+  width: 270px;
+  height: 484px;
+  text-align: center;
+}
+.lily-p-1{
+  font-size: 22px;
+  font-weight: 400;
+}
+.lily-p-2{
+font-size: 22px;
+  font-weight: 700;
+}
+.btn-cart{
+  width: 270px;
+  height: 50px;
+  background-color: #E95A08;
+  color: white;
+  border:none;
+}
 
 
 
