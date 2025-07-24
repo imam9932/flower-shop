@@ -140,12 +140,16 @@ text-align: center;
   display: flex;
   height: 423px;
  }
+ .bloom-ana{
+  gap: 40px;
+ }
   
  .bloom{
   width: 280px;
   height: 70px;
   text-align: center;
    padding:65px 42px;
+   border-radius: 10px;
   background-image: url(../assets/deal-bloom.png);
  }
  .sixty-percent{
@@ -158,6 +162,38 @@ text-align: center;
   font-weight: 350;
   color: white;
  }
+ .ana{
+  background-image: url(../assets/deal-ana.png);
+ width: 280px;
+height: 67px;
+text-align: center;
+   padding:65px 42px;
+   border-radius: 10px;
+}
+.zabo{
+
+  width: 590px;
+height: 240px;
+text-align: center;
+padding: 80px;
+border-radius: 10px;
+  background-image: url(../assets/deal-zabo.png);
+}
+.tweenty-five{
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+.shop-now-3{
+  font-size: 28px;
+  font-style: 350;
+  color: white;
+}
+.bloom-ana-zabo{
+  margin-top: 30px;
+  display: flex;
+  gap: 25px;
+}
 
 
 
