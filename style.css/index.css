@@ -140,9 +140,7 @@ text-align: center;
   display: flex;
   height: 423px;
  }
- .bloom-ana{
-  gap: 40px;
- }
+  
   
  .bloom{
   width: 280px;
@@ -169,11 +167,12 @@ height: 67px;
 text-align: center;
    padding:65px 42px;
    border-radius: 10px;
+   margin-top: 20px;
 }
 .zabo{
 
   width: 590px;
-height: 240px;
+height: 255px;
 text-align: center;
 padding: 80px;
 border-radius: 10px;
@@ -193,6 +192,40 @@ border-radius: 10px;
   margin-top: 30px;
   display: flex;
   gap: 25px;
+}
+/* join section start */
+.join{
+  width: 1440px;
+  height: 533px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 0px;
+  background-image: url(../assets/news-letter-bg.png);
+}
+.join-title{
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+   margin-right: 90px;
+}
+ .join-container{
+  padding: 150px 100px;
+ }
+.form{
+  width: 644px;
+  height: 50px;
+  margin-left: 150px;
+}
+.btn-form{
+  width: 186px;
+  height: 55px;
+  background-color: #E95A08;
+  color: white;
+  border: none;
+}
+.form-btn{
+  display: flex;
+  
 }
 
 
@@ -237,5 +270,48 @@ border-radius: 10px;
    margin-left: 0px;
    width: 100%;
 }
+.section-latest{
+  margin-top: 600px;
+  margin-left: 80px;
+  text-align: center;
+}
+.bloom-ana-zabo{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin-left: 70px;
+}
+.zabo{
+   width: 290px;
+height: 200px;
+padding: 40px;
+}
+.bloom-ana{
+  gap: 40px;
+ }
+.join{
+  margin-top: 400px;
+  margin-left: 60px;
+  width:100%;
+  height: 276px;
+}
+.join-container{
+ padding: 50px 0px;
+/* width: 321px;
+height: 100px; */
+}
+.join-title{
+  margin-right:0;
+  font-size: 25px;
+}
+.form {
+width: 250px;
+height: 30px;
+margin-left: 30px;
+}
+.btn-form{
+   width:100px;
+  height: 35px;
+}
+  
 
 }
