@@ -111,6 +111,13 @@ font-size: 22px;
   border:none;
 }
 /* flower section start */
+.trusted-icon{
+  width: 286px;
+  height: 286px;
+   margin-left: 350px;
+   margin-top: -40px;
+  position: absolute;
+}
 .flower-section{
   display: flex;
   margin-top: 80px;
