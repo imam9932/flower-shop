@@ -47,6 +47,13 @@ margin: 0 auto;
   margin-top: 80px;
    
 }
+.banner-content{
+  display: flex;
+   width: 1140px;
+   gap:100px;
+}
+ 
+ 
 .banner-container{
   width: 470px;
   height: 299px;
@@ -86,6 +93,7 @@ margin: 0 auto;
   width: 270px;
   height: 484px;
   text-align: center;
+  margin-bottom: 40px;
 }
 .lily-p-1{
   font-size: 22px;
@@ -280,9 +288,7 @@ height: 30px;
    .banner{
     height: 900px;
     gap:0px;
-    display: grid;
-    grid-template-columns: repeat(1,fr);
-    flex-direction:column;
+     margin-top: 20px;
    }
    .banner-container{
     width: 80%;
@@ -366,6 +372,21 @@ margin-left: 30px;
  }
  .footer-div-3{
     margin-top: 190px;}
+    .banner-content{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.banner-title{
+  font-size:40px;
+  text-align: center;
+   margin-left: 25px;
+    
+}
+.banner-container{
+  margin-top: 20px;
+  
+}
+ 
  
   
 
