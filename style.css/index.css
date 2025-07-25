@@ -261,9 +261,13 @@ border-radius: 10px;
   width: 216px;
   height: 36px;
   margin-left: 50px;
+  display: flex;
+  gap:20px
 }
 .img-2 {
-margin-top: -10px;
+  margin-top: 5px;
+width: 30px;
+height: 30px;
 }
 
 
@@ -350,6 +354,19 @@ margin-left: 30px;
    width:100px;
   height: 35px;
 }
+.footer{
+  width: 393px;
+  height: 865px;
+  margin-left: 50px;
+}
+ 
+ .footer-container,.footer-ul{
+  display: flex;
+  flex-direction: column;
+ }
+ .footer-div-3{
+    margin-top: 190px;}
+ 
   
 
 }
